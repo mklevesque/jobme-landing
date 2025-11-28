@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JobMe – AI job platform in Ivory Coast</title>
+  <meta
+    name="description"
+    content="JobMe is an AI-powered job platform designed in Ivory Coast. It helps talents and recruiters in Abidjan and major cities structure profiles, post jobs, match and track applications."
+  >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO / Languages -->
+  <link rel="canonical" href="https://jobmejobs.com/en/">
+  <link rel="alternate" hreflang="fr" href="https://jobmejobs.com/">
+  <link rel="alternate" hreflang="en" href="https://jobmejobs.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://jobmejobs.com/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/favicon-192.png">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-525F267P4X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-525F267P4X');
+</script>
+
+<body data-theme="dark">
+<div class="page">
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <img
+          src="../assets/img/logoo.png"
+          alt="JobMe job platform logo"
+          class="brand-logo"
+        >
+        <div class="brand-text">
+          <span class="brand-name">JobMe</span>
+          <span class="brand-tagline">JOBMEJOBS.COM</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <nav class="header-nav" id="main-nav" aria-label="Main navigation">
+          <span class="header-nav-badge">CI</span>
+
+          <a href="index.html" class="is-active">Home</a>
+          <a href="candidates.html">Candidates</a>
+          <a href="recruiters.html">Recruiters</a>
+          <a href="training.html">Training</a>
+
+          <!-- Language switch -->
+          <div class="lang-switch" aria-label="Language selection">
+            <a href="../index.html" class="lang-link">FR</a>
+            <span class="lang-sep">/</span>
+            <a href="index.html" class="lang-link is-active">EN</a>
+          </div>
+
+          <!-- Beta link on this page -->
+          <a href="#beta-signup" class="header-nav-cta">
+            Join the JobMe beta
+          </a>
+        </nav>
+
+        <button class="nav-burger" type="button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="theme-toggle-wrapper">
+          <button class="theme-toggle" type="button" aria-label="Toggle theme">
+            <div class="theme-toggle-pill theme-toggle-pill--compact">
+              <span class="toggle-option light"></span>
+              <span class="toggle-option dark"></span>
+              <div class="toggle-thumb"></div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="shell">
+    <div class="shell-main">
+      <div class="shell-content">
+
+        <!-- HERO INDEX – TEXT + TIMER -->
+        <section class="section" id="top">
+          <div class="container-inner hero-grid hero-grid--with-timer">
+            <!-- Left column: main text -->
+            <div class="hero-head">
+              <div class="hero-kicker">AI job platform designed in Ivory Coast</div>
+              <h1 class="hero-title">
+                JobMe, the AI-powered job platform for your future.
+              </h1>
+              <p class="hero-question">Ready to find the job that really fits you?</p>
+
+              <p class="hero-subtitle">
+                JobMe is an <span>AI-powered job platform dedicated to recruitment</span>.
+                It makes job search easier, helps you build a clear profile and match with
+                relevant openings posted by companies in Abidjan and other major cities
+                across Ivory Coast.
+              </p>
+
+              <div class="hero-chips">
+                <span class="hero-chip">Talents & candidates</span>
+                <span class="hero-chip">Recruiters & companies</span>
+                <span class="hero-chip hero-chip-ia">AI at the heart of job matching</span>
+              </div>
+
+              <div class="hero-actions hero-actions--tight">
+                <button class="btn-primary" type="button" id="hero-beta-btn">
+                  Join the JobMe beta
+                </button>
+                <button
+                  class="btn-ghost"
+                  type="button"
+                  onclick="document.getElementById('why').scrollIntoView({behavior: 'smooth'});"
+                >
+                  See how the platform works
+                </button>
+              </div>
+            </div>
+
+            <!-- Right column: timer + meta -->
+            <aside class="hero-timer-panel" aria-label="JobMe beta countdown">
+              <div class="timer-card">
+                <div class="timer-header">
+                  <div class="timer-kicker">JobMe beta</div>
+                  <div class="timer-title">Opening in preparation</div>
+                </div>
+
+                <div class="timer-main">
+                  <div class="timer-display" id="beta-timer">215:00:00:00</div>
+                  <div class="timer-legend">Days&nbsp;:&nbsp;Hours&nbsp;:&nbsp;Minutes&nbsp;:&nbsp;Seconds</div>
+                </div>
+
+                <div class="timer-tagline">
+                  <span class="timer-tag">🎟️ 2-week early access</span>
+                </div>
+
+                <p class="timer-text">
+                  By joining the beta, you get <strong>early access</strong> to the JobMe app and
+                  to job offers published on the platform for <strong>a full 2 weeks</strong> after
+                  the official launch.
+                </p>
+                <p class="timer-text">
+                  The countdown tells you how much time is left before opening. Use it to get your
+                  profile ready before the starting signal.
+                </p>
+              </div>
+
+              <!-- Meta below the timer, in the same column -->
+              <div class="hero-meta hero-meta--stacked">
+                <p class="hero-ai-caption">
+                  <strong>For you:</strong> an AI-guided professional profile and already-filtered, relevant job offers.<br>
+                  <strong>For them:</strong> pre-qualified applications, ready to be contacted and hired faster.
+                </p>
+
+                <div class="hero-badges">
+                  <div class="hero-badge">+1200 talents supported in their job search</div>
+                  <div class="hero-badge">+200 companies already connected to the platform</div>
+                  <div class="hero-badge">Profile analysis, matching & smart recommendations</div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <!-- WHY JOBME -->
+        <section class="section" id="why">
+          <div class="container-inner">
+            <h2 class="section-title">Why choose JobMe as your job platform?</h2>
+            <p class="section-subtext">
+              One platform, two connected experiences. JobMe combines AI and human support
+              to save recruiters time and help every talent present themselves at their best
+              in their job search in Ivory Coast.
+            </p>
+
+            <div class="why-grid">
+              <article class="why-card">
+                <div class="why-eyebrow">For talents & candidates</div>
+                <h3 class="why-title">
+                  <span class="why-title-icon">🙋‍♂️</span>
+                  Finding a job becomes simple
+                </h3>
+                <p class="why-text">
+                  A single profile gives you access to many professional opportunities.
+                  JobMe helps you clarify your career goals, structure your experience and highlight your strengths
+                  with an AI-guided professional profile, designed for local job search.
+                </p>
+              </article>
+
+              <article class="why-card">
+                <div class="why-eyebrow">For recruiters & HR</div>
+                <h3 class="why-title">
+                  <span class="why-title-icon">⚡</span>
+                  Faster and more targeted hiring
+                </h3>
+                <p class="why-text">
+                  Post a job, receive pre-filtered applications, shortlist in a few clicks.
+                  The JobMe algorithm prioritises the most relevant profiles for each position
+                  and reduces the time spent screening CVs in your hiring process.
+                </p>
+              </article>
+
+              <article class="why-card">
+                <div class="why-eyebrow">For atypical paths</div>
+                <h3 class="why-title">
+                  <span class="why-title-icon">🌱</span>
+                  Every talent deserves a chance
+                </h3>
+                <p class="why-text">
+                  Whatever your level of experience, AI highlights what makes you unique:
+                  skills, soft skills, achievements. You track your progress and see how you evolve
+                  through applications and job opportunities suggested to you.
+                </p>
+              </article>
+
+              <article class="why-card">
+                <div class="why-eyebrow">For the future of hiring</div>
+                <h3 class="why-title">
+                  <span class="why-title-icon">🤝</span>
+                  AI in the service of humans
+                </h3>
+                <p class="why-text">
+                  Personalised recommendations, tracking of your steps, training suggestions:
+                  JobMe uses AI to boost your chances and enrich the relationship between talents
+                  and recruiters, never to replace the human side of recruitment.
+                </p>
+              </article>
+
+              <article class="why-card">
+                <div class="why-eyebrow">For simpler decisions</div>
+                <h3 class="why-title">
+                  <span class="why-title-icon">👆</span>
+                  Swipe to match with your ideal job
+                </h3>
+                <p class="why-text">
+                  An interface inspired by everyday apps: you swipe, like and explore.
+                  AI serves you the offers that best match your profile so you can focus
+                  on one thing: choosing the job that really fits you.
+                </p>
+              </article>
+
+              <article class="why-card">
+                <div class="why-eyebrow">For continuous progress</div>
+                <h3 class="why-title">
+                  <span class="why-title-icon">📚</span>
+                  Microlearning & improvement routines
+                </h3>
+                <p class="why-text">
+                  JobMe doesn’t stop at the application stage: short content, targeted tips
+                  and micro-learning paths help you improve your CV, soft skills and professional posture,
+                  boosting your employability in just a few minutes a day.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- HOW IT WORKS -->
+        <section class="section" id="how">
+          <div class="container-inner">
+            <h2 class="section-title">How does the JobMe job platform work?</h2>
+            <p class="section-subtext">
+              Two experiences designed to complement each other: candidates looking for their next professional challenge,
+              and recruiters who want to move faster, hire better and qualify applications with the help of AI.
+            </p>
+
+            <div class="how-wrapper">
+              <!-- CANDIDATES -->
+              <div>
+                <h3 class="how-block-title">For candidates and talents</h3>
+                <p class="how-block-subtitle">Finding a job has never been this simple.</p>
+                <ul class="how-steps">
+                  <li><span>Create your account</span> in less than 30&nbsp;seconds on the JobMe platform.</li>
+                  <li><span>Add your CV and profile</span>: experience, skills, interests.</li>
+                  <li><span>Discover the offers that match you</span> thanks to JobMe’s job recommendations.</li>
+                  <li><span>Apply in one click</span> and track the progress of your applications.</li>
+                  <li><span>Follow your progression</span>: goals, feedback, areas for improvement and profile growth.</li>
+                </ul>
+              </div>
+
+              <!-- RECRUITERS -->
+              <div>
+                <h3 class="how-block-title">For recruiters and companies</h3>
+                <p class="how-block-subtitle">Hire faster. Simplify everything. Gain efficiency.</p>
+                <ul class="how-steps">
+                  <li><span>Publish your job</span> in a few seconds, with your key hiring criteria.</li>
+                  <li><span>Receive the best profiles</span> pre-qualified based on your needs and the role.</li>
+                  <li><span>Sort and connect in one click</span> with the most relevant candidates.</li>
+                  <li><span>Track your recruitments</span> and the performance of your job posts on the platform.</li>
+                  <li><span>Build a long-term relationship</span> with talents and strengthen your employer brand.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- BETA SIGN-UP -->
+        <section class="section" id="beta-signup">
+          <div class="container-inner">
+            <h2 class="section-title">Pre-register for the JobMe beta, AI job platform</h2>
+            <p class="section-subtext">
+              By joining the beta, you’ll be among the first to test the platform and benefit from
+              <strong>2 weeks of early access</strong> to the JobMe app and available job offers
+              after the official launch. Sign up to receive project updates and your access link when we go live.
+            </p>
+
+            <div class="beta-grid">
+              <form
+                id="beta-form"
+                class="beta-form"
+                method="POST"
+                enctype="multipart/form-data"
+              >
+                <div class="beta-field">
+                  <label class="beta-label" for="beta-email">Email address <span>*</span></label>
+                  <input
+                    id="beta-email"
+                    class="beta-input"
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="your.email@example.com"
+                  >
+                  <span class="beta-small">
+                    We’ll only send you information related to the JobMe job platform and the beta launch.
+                  </span>
+                </div>
+
+                <div class="beta-field">
+                  <div class="beta-label">You are mostly… <span>*</span></div>
+                  <div class="beta-radio-group">
+                    <label class="beta-radio-pill">
+                      <input type="radio" name="role" value="candidate" checked>
+                      <span>Candidate / Talent</span>
+                    </label>
+                    <label class="beta-radio-pill">
+                      <input type="radio" name="role" value="recruiter">
+                      <span>Recruiter / Company</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- CANDIDATE BLOCK -->
+                <div class="beta-fields-candidate">
+                  <div class="beta-field">
+                    <label class="beta-label" for="beta-cv">CV (optional but recommended)</label>
+                    <input
+                      id="beta-cv"
+                      class="beta-input"
+                      type="file"
+                      name="cv"
+                      accept=".pdf,.doc,.docx"
+                    >
+                    <span class="beta-small">
+                      Your CV helps us better prepare your candidate experience as soon as the JobMe beta opens.
+                    </span>
+                  </div>
+                  <div class="beta-field">
+                    <div class="beta-checkbox-line">
+                      <input id="beta-candidate-optin" type="checkbox" name="candidateOptin" value="yes">
+                      <label for="beta-candidate-optin">
+                        I agree to be contacted to test the JobMe job platform in early access as a beta candidate.
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- RECRUITER BLOCK -->
+                <div class="beta-fields-recruiter" style="display:none;">
+                  <div class="beta-field">
+                    <label class="beta-label" for="beta-company">Company name</label>
+                    <input
+                      id="beta-company"
+                      class="beta-input"
+                      type="text"
+                      name="company"
+                      placeholder="Your company name"
+                    >
+                  </div>
+                </div>
+
+                <!-- Desired features (shared) -->
+                <div class="beta-field">
+                  <label class="beta-label" for="beta-features">
+                    Which features would you like to see in JobMe?
+                  </label>
+                  <textarea
+                    id="beta-features"
+                    class="beta-textarea"
+                    name="features"
+                    placeholder="E.g.: application tracking, automatic matching, microlearning, analytics for job posts, etc."
+                  ></textarea>
+                  <span class="beta-small">
+                    Your ideas help us build a job platform that truly matches the needs of candidates and recruiters.
+                  </span>
+                </div>
+
+                <div class="beta-field">
+                  <label class="beta-label" for="beta-source">How did you hear about JobMe?</label>
+                  <input
+                    id="beta-source"
+                    class="beta-input"
+                    type="text"
+                    name="source"
+                    placeholder="Social networks, word of mouth, event…"
+                  >
+                </div>
+
+                <div class="beta-submit">
+                  <button type="submit">Confirm my beta pre-registration</button>
+                </div>
+              </form>
+
+              <div class="beta-side">
+                <div class="beta-tagline">
+                  <span>🚀</span>
+                  <span class="beta-highlight">Goal: a job platform launch that really matters</span>
+                </div>
+                <p>
+                  Every pre-registration helps us measure the interest around JobMe and prepare a launch
+                  built for the community: useful, expected, and grounded in real-world recruitment feedback.
+                </p>
+                <ul class="beta-list">
+                  <li>Measure engagement before the app and platform go live.</li>
+                  <li>Identify the key needs of candidates and recruiters in Ivory Coast.</li>
+                  <li>Invite a first wave of highly motivated beta testers.</li>
+                  <li>Build a strong story around the opening of the JobMe job platform.</li>
+                </ul>
+                <p>
+                  By signing up, you directly contribute to the success of the project
+                  and become one of the first people to write the JobMe story.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>© <span id="year"></span> JobMe. All rights reserved.</div>
+      <div>JobMe – jobs and recruitment with AI, re-invented for you</div>
+    </div>
+  </footer>
+</div>
+
+<!-- JS -->
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
